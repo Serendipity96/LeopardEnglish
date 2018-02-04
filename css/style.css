@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+
+.card .frame{
+    width: inherit;
+    height: 70px;
+    background-color:#ec6149;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.card .frame .date,
+.card .frame .button{
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card .frame .date{
+    margin-left: 24px;
+}
+.card .frame .button{
+    right: 5%;
+    color: white;
+    font-size: 0.8em;
+    padding: 6px 12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#ec6149;
+}
+
+.card .frame .button:hover{
+    background-color:#fff;
+    color:#ec6149;
+}
+
+.card .content h1{
+    font-size: 120px;
+    font-weight: lighter;
+    margin-left: 0.1em;
+}
+
+.card .content h4{
+    margin-left: 1.5em;
+    margin-top: 1.2em;
+}
+.card .content a {
+    color: black;
+    text-decoration: underline wavy red;
+}
+
